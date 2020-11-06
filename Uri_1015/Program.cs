@@ -7,7 +7,7 @@ namespace Uri_1015
     {
         static void Main(string[] args)
         {
-            string[,] valores = new string[3,3];
+            string[,] valores = new string[3, 3];
 
             double x1, y1, x2, y2, r;
 
@@ -21,10 +21,10 @@ namespace Uri_1015
                 }
             }
 
-            x1 = double.Parse(valores[0,0], CultureInfo.InvariantCulture);
-            y1 = double.Parse(valores[0,1], CultureInfo.InvariantCulture);
-            x2 = double.Parse(valores[1,0], CultureInfo.InvariantCulture);
-            y2 = double.Parse(valores[1,1], CultureInfo.InvariantCulture);
+            x1 = double.Parse(valores[0, 0], CultureInfo.InvariantCulture);
+            y1 = double.Parse(valores[0, 1], CultureInfo.InvariantCulture);
+            x2 = double.Parse(valores[1, 0], CultureInfo.InvariantCulture);
+            y2 = double.Parse(valores[1, 1], CultureInfo.InvariantCulture);
 
             r = (x1 - x2) * (x1 - x2) + (y1 - y2) * (y1 - y2);
 
